@@ -1,0 +1,27 @@
+.socialIcons {
+    height: 70px;
+    width: 100%;
+    background: rgb(30, 37, 47);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-top: 1px solid white;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+.gitLogo {
+    height: 40px;
+    border-radius: 12px;
+    justify-content: space-between;
+    margin: 10px;
+}
+.wrapper .button span {
+    font-size: 28px;
+    color: #f1fbff;
+    font-weight: 500;
+    line-height: 60px;
+    margin: 3px;
+  }

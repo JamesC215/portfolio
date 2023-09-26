@@ -1,0 +1,42 @@
+#intro {
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+.photo {
+    height: 300px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 0px;
+}
+
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+    margin-top: 50px;
+}
+
+.introText {
+    font-size: 3rem;
+    margin-top: 50px;
+}
+
+.introName {
+    color: rgba(8, 70, 164, 0.631);
+    font-size: 3rem;
+    margin-top: 50px;
+}
+
+.introPara {
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+
+@media screen and (max-width:840px) {
+    .introContent {
+        font-size: 10vw;
+    }
+}
